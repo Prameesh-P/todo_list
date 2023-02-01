@@ -1,7 +1,7 @@
 package controllers
 
-import  "net/http"
+import "net/http"
 
-func (w http.ResponseWriter, r *http.Request)  {
+func Todo(w http.ResponseWriter, r *http.Request) {
 
 }
