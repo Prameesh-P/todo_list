@@ -17,7 +17,7 @@ type PageData struct {
 }
 
 func init() {
-	tpl = template.Must(template.ParseFiles("templates/temp.gohtml"))
+	tpl = template.Must(template.ParseFiles("templates/index.gohtml"))
 }
 
 func TodoList(w http.ResponseWriter, r *http.Request) {
